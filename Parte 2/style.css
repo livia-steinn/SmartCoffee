@@ -1,0 +1,58 @@
+.imagem-intro img {
+    width: 1200;
+    height:800 ;
+}
+.imagem-resp, .imagem-fig {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+img{
+    display: block;
+    max-width: 70%;
+    height: auto;
+}
+
+.imagem-rec{
+    width: 100%;
+    aspect-ratio: 4/9;
+    object-fit: cover;
+    object-position: 70% center;
+}
+.imagem.capa{
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+
+}
+.imagem-ava{
+    width: 120%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+.flex{
+    display: flex;
+}
+.imagem-seven{
+    border-radius: 18px 18px;
+    box-shadow: 0 10px 40px rgb(255, 166, 0);
+    transition:transform .25s ease, filter .25s ease ;
+}
+
+.imagem-seven:hover {
+    transform: scale(1.03);
+    filter: sepia(10px);
+}
+
+.imagem-gal-pr{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.imagem-gal img {
+    width: 100%;
+    aspect-ratio: 16/10;
+    object-fit: cover
+}
